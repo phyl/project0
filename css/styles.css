@@ -26,6 +26,8 @@ footer {
 }
 .eagle-description {
     color: $eagColor;
+    max-width: 18rem; 
+    margin: 0px 10px 0px 10px;
 }
 
 img {
