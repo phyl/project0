@@ -1,0 +1,34 @@
+$eagColor: black;
+
+aside {
+    width: 25%;
+    display: block;
+}
+
+article {
+    width: 70%;
+    display: block;
+}
+
+footer {
+    display: block;
+    margin-top: 10px;
+    padding-top: 10px;
+    background-color: #003;
+    color: #fff;
+  }
+
+  nav {
+    background-color: #003;
+    overflow: hidden;
+    width: 100%;
+    color: #fff;
+}
+.eagle-description {
+    color: $eagColor;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
