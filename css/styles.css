@@ -1,22 +1,6 @@
 $eagColor: black;
 
-aside {
-    width: 25%;
-    display: block;
-}
 
-article {
-    width: 70%;
-    display: block;
-}
-
-footer {
-    display: block;
-    margin-top: 10px;
-    padding-top: 10px;
-    background-color: #003;
-    color: #fff;
-  }
 
   nav {
     background-color: #003;
@@ -34,3 +18,23 @@ img {
     width: 100%;
     height: auto;
 }
+
+.card-header{
+    padding:.75rem 0rem;
+    margin-left: -15px !important;
+    margin-right: -15px !important;
+    text-align: center;
+}
+aside a {
+    color: #99cc00;
+}
+
+
+footer {
+    margin-top: 10px;
+    padding-top: 10px;
+    background-color: #003 !important;
+    color: #fff !important;
+    text-align: center;
+    border-radius: 5px;
+  }
