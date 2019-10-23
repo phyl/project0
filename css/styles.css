@@ -2,7 +2,7 @@ $eagColor: black;
 
 
 
-  nav {
+nav {
     background-color: #003;
     overflow: hidden;
     width: 100%;
@@ -27,14 +27,60 @@ img {
 }
 aside a {
     color: #99cc00;
+    font-weight: bold;
 }
-
 
 footer {
     margin-top: 10px;
-    padding-top: 10px;
+    padding:  20px 0px 20px 0px;
     background-color: #003 !important;
     color: #fff !important;
     text-align: center;
-    border-radius: 5px;
+    bottom: 0;
+    width: 100%;
+  }
+
+  @media only screen and (max-device-width: 768px){
+    .slide{
+        display: none;
+    }
+}
+
+#back-to-top {
+    color: #99CC00;
+    padding: 20px;
+    font-weight: bolder;
+}
+
+@media print {
+    aside a {
+      color: black; 
+    }
+}
+
+  @media print {
+    .slide{
+        display: none;
+    }
+  }
+
+  a[target="_blank"] {
+    color: #003;
+  }
+
+  a:hover[target="_blank"] {
+    background-color: #99CC00;
+  }
+
+.nav-link {
+    font-size: large;
+  }
+
+a:hover {
+    background-color: #ccc;
+    text-decoration: none;
+  }
+
+  a:active {
+    background-color: #99CC00;
   }
