@@ -1,5 +1,4 @@
-$eagColor: black;
-
+$eagColor: #99cc00;
 
 
 nav {
@@ -8,8 +7,9 @@ nav {
     width: 100%;
     color: #fff;
 }
+
+
 .eagle-description {
-    color: $eagColor;
     max-width: 18rem; 
     margin: 0px 10px 0px 10px;
 }
@@ -26,8 +26,11 @@ img {
     text-align: center;
 }
 aside a {
-    color: #99cc00;
+    color: $eagColor;
     font-weight: bold;
+}
+.carousel-caption {
+  color: $eagColor;
 }
 
 footer {
@@ -40,6 +43,21 @@ footer {
     width: 100%;
   }
 
+  .edit {
+    text-align: right !important;
+    font-style: italic;
+  }
+
+  .c-header {
+    text-align: left ;
+    padding: .75rem 0rem;
+    margin-left: 0px !important;
+    margin-right: 0px !important;
+    margin-bottom: 0 !important;
+    background-color: rgba(0,0,0,.03) !important;
+    border-bottom: 1px solid rgba(0,0,0,.125) !important;
+  }
+  
   @media only screen and (max-device-width: 768px){
     .slide{
         display: none;
@@ -47,7 +65,7 @@ footer {
 }
 
 #back-to-top {
-    color: #99CC00;
+    color: $eagColor;
     padding: 20px;
     font-weight: bolder;
 }
@@ -69,7 +87,7 @@ footer {
   }
 
   a:hover[target="_blank"] {
-    background-color: #99CC00;
+    background-color: $eagColor;
   }
 
 .nav-link {
@@ -82,5 +100,5 @@ a:hover {
   }
 
   a:active {
-    background-color: #99CC00;
+    background-color:$eagColor;
   }
