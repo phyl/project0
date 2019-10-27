@@ -1,0 +1,81 @@
+nav {
+  background-color: #003;
+  overflow: hidden;
+  width: 100%;
+  color: #fff; }
+
+.eagle-description {
+  max-width: 18rem;
+  margin: 0px 10px 0px 10px; }
+
+img {
+  width: 100%;
+  height: auto; }
+
+.card-header {
+  padding: .75rem 0rem;
+  margin-left: -15px !important;
+  margin-right: -15px !important;
+  text-align: center; }
+
+aside a {
+  color: #99cc00;
+  font-weight: bold; }
+
+.carousel-caption {
+  color: #99cc00; }
+
+footer {
+  margin-top: 10px;
+  padding: 20px 0px 20px 0px;
+  background-color: #003 !important;
+  color: #fff !important;
+  text-align: center;
+  bottom: 0;
+  width: 100%; }
+
+.edit {
+  text-align: right !important;
+  font-style: italic; }
+
+.c-header {
+  text-align: left;
+  padding: .75rem 0rem;
+  margin-left: 0px !important;
+  margin-right: 0px !important;
+  margin-bottom: 0 !important;
+  background-color: rgba(0, 0, 0, 0.03) !important;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.125) !important; }
+
+@media only screen and (max-device-width: 768px) {
+  .slide {
+    display: none; } }
+
+#back-to-top {
+  color: #99cc00;
+  padding: 20px;
+  font-weight: bolder; }
+
+@media print {
+  aside a {
+    color: black; } }
+
+@media print {
+  .slide {
+    display: none; } }
+
+a[target="_blank"] {
+  color: #003; }
+
+a:hover[target="_blank"] {
+  background-color: #99cc00; }
+
+.nav-link {
+  font-size: large; }
+
+a:hover {
+  background-color: #ccc;
+  text-decoration: none; }
+
+a:active {
+  background-color: #99cc00; }
